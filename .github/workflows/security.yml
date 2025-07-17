@@ -38,7 +38,7 @@ jobs:
       #    acs-report-enable: true
 
       # Upload SARIF to show alerts in PR
-      - name: Upload SARIF
-        uses: github/codeql-action/upload-sarif@v2
-        with:
-          sarif_file: grype.sarif
+      #- name: Upload SARIF
+      #  uses: github/codeql-action/upload-sarif@v2
+      #  with:
+      #    sarif_file: grype.sarif
